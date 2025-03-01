@@ -106,9 +106,9 @@ if prompt := st.chat_input("Ask me anything..."):
             if retrieved_answer:
                 # Generate a refined answer using Gemini
                 refined_answer = generate_refined_answer(prompt, retrieved_answer)
-                response = f"**Nirmal Gaud**:\n{refined_answer}"
+                response = f"**Sai Ratna Varshita**:\n{refined_answer}"
             else:
-                response = "**Nirmal Gaud**:\nI'm sorry, I cannot answer that question."
+                response = "**Sai Ratna Varshita**:\nI'm sorry, I cannot answer that question."
         except Exception as e:
             response = f"An error occurred: {e}"
     
